@@ -34,33 +34,27 @@ b {
 /* iamage location & margin thickness */
 img {
     float: left;
-    margin: 12px;
+    margin: 11px;
 }
 
-/* p1 line height */
-.p1 {
+/* p1, p2, p3, p4 line-height */
+.p1, .p2, .p3, .p4 {
     line-height: 20px;
 }
 
-/* p2 line height */
-.p2 {
-    line-height: 20px;
-}
-
-/* p3 line height */
-.p3 {
-    line-height: 20px;
-}
-
-/* p4 line height */
-.p4 {
-    line-height: 20px;
-}
-
-/* list edit */
+/* changing ol list into ul */
 #list {
-    margin: 8px;
+    list-style-type:disc;
+    text-align: left;
+    width: 100px;
 }
+
+.p4, #list {
+    position:static;
+    text-align: left;
+   
+}
+
 
 /* "YOU MAY ALSO LIKE" line height & turned Uppercase */
 #p5 {
@@ -78,3 +72,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+
+/*
+text-align: left;
+width: 100px;
+*/
