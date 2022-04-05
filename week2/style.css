@@ -1,72 +1,81 @@
+/* background color */
 body {
     background-color: lightcyan;
 }
 
+/* h1 text color */
 h1 {
     color:blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
 }
     
 
-h2, h3 {
+/* h2 text color */
+h2 {
     color:green;
+}
+
+/* h1, h2 font & text location */
+h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
+/* h3 text color & font */
+h3 {
+    color:green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-
+/* bold text color */
 b {
     color:lightcoral;
 }
 
+/* "YOU MAY ALSO LIKE" line height & turned Uppercase */
 #paraFive {
     line-height: 20px;
     text-transform:uppercase;
 }
 
+/* iamage location & margin thickness */
 img {
     float: left;
     margin: 15px;
 }
 
+/* p1 line height */
 .paraOne {
     line-height: 20px;
-  }
+}
 
+/* p2 line height */
 .paraTwo {
     line-height: 20px;
 }
 
+/* p3 line height */
 .paraThree {
     line-height: 20px;
 }
 
+/* p4 line height */
 .paraFour {
     line-height: 20px;
 }
 
-#paraFive {
-    line-height: 20px;
-    text-transform:uppercase;
-}
-
+/* link edit: removal of underline & hover underline incorporated */
 a {
     text-decoration: none;
     float: left;
-    margin: 2px;00px
+    margin: 2px;
 }
 a:hover {
     text-decoration: underline;
 }
 
-#list {
-
-}
-
-
-div {
+/* list edit: location & conjoined with p5 title of the list */
+div, img {
+    float:inherit
     float:left
     resize: both;
     overflow: auto;
