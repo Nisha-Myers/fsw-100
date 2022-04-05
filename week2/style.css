@@ -49,10 +49,9 @@ img {
     width: 100px;
 }
 
-.p4, #list {
-    position:static;
+#couple {
+    position:sticky;
     text-align: left;
-   
 }
 
 
