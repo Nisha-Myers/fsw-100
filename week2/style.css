@@ -1,0 +1,74 @@
+body {
+    background-color: lightcyan;
+}
+
+h1 {
+    color:blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+    
+
+h2, h3 {
+    color:green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+
+b {
+    color:lightcoral;
+}
+
+#paraFive {
+    line-height: 20px;
+    text-transform:uppercase;
+}
+
+img {
+    float: left;
+    margin: 15px;
+}
+
+.paraOne {
+    line-height: 20px;
+  }
+
+.paraTwo {
+    line-height: 20px;
+}
+
+.paraThree {
+    line-height: 20px;
+}
+
+.paraFour {
+    line-height: 20px;
+}
+
+#paraFive {
+    line-height: 20px;
+    text-transform:uppercase;
+}
+
+a {
+    text-decoration: none;
+    float: left;
+    margin: 2px;00px
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#list {
+
+}
+
+
+div {
+    float:left
+    resize: both;
+    overflow: auto;
+}
+
