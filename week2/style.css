@@ -3,25 +3,22 @@ body {
     background-color: lightcyan;
 }
 
-/* h1 text color */
+/* h1 & h2 text color */
 h1 {
     color:blue;
 }
-    
-
-/* h2 text color */
 h2 {
     color:green;
 }
 
-/* h1, h2 font & text location */
+/* h1 & h2 font & text location */
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+    text-align:center;
 }
 
 /* h3 text color & font */
-h3 {
+#head3 {
     color:green;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -31,36 +28,34 @@ b {
     color:lightcoral;
 }
 
-/* iamage location & margin thickness */
-img {
-    float: left;
-    margin: 11px;
-}
-
 /* p1, p2, p3, p4 line-height */
 .p1, .p2, .p3, .p4 {
     line-height: 20px;
 }
 
+/* p4 margin adjustment */
+.p4 {
+    margin-bottom: 0px;
+}
+
+/* iamage location & margin thickness */
+img {
+    display: block;
+    float:left;
+    margin-right: 20px;
+}
+
 /* changing ol list into ul */
-#list {
-    list-style-type:disc;
-    text-align: left;
-    width: 100px;
+ol {
+    display: inline-block;
+    list-style-type: disc;
 }
-
-#couple {
-    position:sticky;
-    text-align: left;
-}
-
 
 /* "YOU MAY ALSO LIKE" line height & turned Uppercase */
 #p5 {
     line-height: 20px;
     text-transform:uppercase;
 }
-
 
 /* link edit: removal of underline & hover underline incorporated */
 a {
@@ -71,10 +66,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-
-
-/*
-text-align: left;
-width: 100px;
-*/

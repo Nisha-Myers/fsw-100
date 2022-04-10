@@ -1,0 +1,59 @@
+body {
+    background-color: bisque;
+}
+
+a {
+    color:darkmagenta;
+    text-decoration: none;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: line-through;
+}
+
+
+table {
+    background-color: bisque;
+    font-size: medium;
+    margin: 5px;
+    border: 4px solid black;
+}
+
+#title {
+    color: tomato;
+    font-weight:bolder;
+    margin-bottom: 2px;
+}
+
+.myTitles {
+    color: bisque;
+    background-color: darkslategrey;
+}
+
+#inner {
+    color: bisque;
+    background-color:indianred;
+}
+
+b {
+    color:tomato;
+}
+
+
+header {
+    color: blue;
+}
+
+h2 {
+    color: darkslategray;
+}
+
+h3 {
+    color:teal;
+}
+
+p {
+    color: darkslategray;
+}
