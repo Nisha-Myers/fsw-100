@@ -73,9 +73,13 @@ h3 {
 
 p {
     color: darkslategray;
-    font-family:cursive
+}
+
+header, h2, h3, p {
+    font-family: cursive;
 }
 
 #bottom {
     color:royalblue;
+    font-family: 'Times New Roman', Times, serif;
 }
