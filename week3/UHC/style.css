@@ -20,6 +20,8 @@ a:hover {
     font-size: medium;
     margin: 5px;
     border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #table2 {
@@ -27,12 +29,15 @@ a:hover {
     font-size: medium;
     margin: 5px;
     border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #title {
     color: tomato;
     font-weight:bolder;
     margin-bottom: 2px;
+    text-align: center;
 }
 
 .myTitles {
@@ -77,6 +82,10 @@ p {
 
 header, h2, h3, p {
     font-family: cursive;
+}
+
+header, h2, {
+    text-align: center;
 }
 
 #bottom {
