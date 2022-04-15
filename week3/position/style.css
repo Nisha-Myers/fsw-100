@@ -20,16 +20,18 @@
 
 #uhc, #dmh, #ccc {
     position: absolute;
+    color:rgb(224, 235, 235);
+    background-color: rgba(44, 20, 9, 0);    
     text-decoration: none;
-    background-color: rgba(44, 20, 9, 0);
     text-align: center;
     font-style: italic;
     font-weight: bold;
-    color:rgb(224, 235, 235);    
 }
 #uhc, #dmh, #ccc:hover {
     text-decoration: underline;
 }
+
+
 
 #img1 {
     border: 20px solid  rgba(44, 20, 9, 0.507);
