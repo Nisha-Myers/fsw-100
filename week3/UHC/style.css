@@ -11,7 +11,7 @@ a {
     margin-right: 6px;
 }
 a:hover {
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 #table1 {
@@ -32,9 +32,10 @@ a:hover {
 
 #title {
     color: tomato;
-    font-weight:bolder;
+    font-weight: bolder;
     margin-bottom: 2px;
     text-align: center;
+    font-family:cursive;
 }
 
 .myTitles {
@@ -44,7 +45,7 @@ a:hover {
 
 #inner {
     color: bisque;
-    background-color:indianred;
+    background-color: indianred;
     margin: 20px;
     text-align: center;
 }
@@ -73,11 +74,11 @@ h3 {
     color:teal;
 }
 
-p {
+p, span {
     color: darkslategray;
 }
 
-header, h2, h3, p {
+header, h2, h3, p, span {
     font-family: cursive;
 }
 
