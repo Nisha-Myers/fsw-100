@@ -1,38 +1,63 @@
+/* background color */
 * {
     background-color: antiquewhite;
 }
 
+/* link decoration edits */
+#about {
+    text-decoration: none;
+    text-align: center;
+}
+#about:hover {
+    text-decoration: underline;
+}
+
+#uhc {
+    text-decoration: none;
+    text-align: center;
+}
+#uhc:hover {
+    text-decoration: underline;
+}
+
+#dmh {
+    text-decoration: none;
+    text-align: center;
+}
+#dmh:hover {
+    text-decoration: underline;
+}
+
+#ccc {
+    text-decoration: none;
+    text-align: center;
+}
+#ccc:hover {
+    text-decoration: underline;
+}
+
+/* navbar link edit */
 #about {
     position: fixed;
     color:antiquewhite;
     background-color: rgba(114, 82, 39, 0.664);
-    text-decoration: none;
-    text-align: center;
     width: 100%;
     float: left;
     font-style: italic;
     font-weight: bold;
     margin-right: 6px;
 }
-#about:hover {
-    text-decoration: underline;
-}
 
+/* "read more..." edit */
 #uhc, #dmh, #ccc {
     position: absolute;
     color:rgb(224, 235, 235);
     background-color: rgba(44, 20, 9, 0);    
-    text-decoration: none;
-    text-align: center;
     font-style: italic;
     font-weight: bold;
 }
-#uhc, #dmh, #ccc:hover {
-    text-decoration: underline;
-}
 
-
-
+/* image edits */
 #img1 {
     border: 20px solid  rgba(44, 20, 9, 0.507);
     float: left;
@@ -64,6 +89,7 @@
     opacity: 0.7;
 }
 
+/* paragraph edits */
 #p1 {
     text-align: center;
     float: right;
@@ -106,17 +132,20 @@
     border: 2px solid black;
 }
 
-h1 {
+/* header edit */
+header {
     text-align: center;
     color: rgb(92, 141, 141);
 }
 
+/* dashed border decoration */
 body {
     border: 4px dashed rgba(114, 81, 39, 0.226);
     width: 526px;
     height: 1450px;
 }
 
+/* footer edit */
 footer {
     position: absolute;
     float: left;
