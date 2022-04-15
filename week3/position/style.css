@@ -138,7 +138,7 @@ header {
     color: rgb(92, 141, 141);
 }
 
-/* dashed border decoration */
+/* dashed border around images decoration */
 body {
     border: 4px dashed rgba(114, 81, 39, 0.226);
     width: 526px;
