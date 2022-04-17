@@ -61,72 +61,72 @@
 #img1 {
     border: 20px solid  rgba(44, 20, 9, 0.507);
     float: left;
-    position: absolute;
-    left: 33px;
+    display: block;
+    position: relative;
+    left: 40px;
     margin: 10px; 
-    top: 140px;
+    top: 60px;
     opacity: 0.7;
-    
 }
 
 #img2 {
     border: 20px solid  rgba(44, 20, 9, 0.507);
     float: left;
-    position: absolute;
+    display: block;
+    position: relative;
     left: 33px;
     margin: 10px; 
-    top: 580px;
+    top: 100px;
     opacity: 0.7;
 }
 
 #img3 {
     border: 20px solid  rgba(44, 20, 9, 0.507);
     float: left;
-    position: absolute;
+    display: block;
+    position: relative;
     left: 33px;
     margin: 10px; 
-    top: 1030px;
+    top: 10px;
     opacity: 0.7;
 }
 
 /* paragraph edits */
 #p1 {
-    text-align: center;
-    float: right;
-    position: absolute;
-    top: 150px;
-    left: 600px;
-    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    float: left;
+    display: block;
+    position: relative;
+    bottom: 898px;
+    left:500px;
     color: rgb(38, 82, 82);
-    background-color: rgba(44, 20, 9, 0.274);
     height: auto;
     width: auto;
-    border: 2px solid black;
+
 }
 
 #p2 {
-    text-align: center;
-    float: right;
-    position: absolute;
-    top: 590px;
+    text-align: justify;
+    font-size: 20px;
+    display:block;
+    position: relative;
+    bottom: 600px;
     left: 600px;
-    padding: 10px;
     color: rgb(38, 82, 82);
-    background-color: rgba(44, 20, 9, 0.274);
-    height: auto;
+    height: px;
     width: auto;
     border: 2px solid black;
 }
 
 #p3 {
-    text-align: center;
-    float: right;
-    position: absolute;
-    top: 1040px;
+    text-align: justify;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    top: 40px;
     left: 600px;
-    padding: 10px;
     color: rgb(38, 82, 82);
-    background-color: rgba(44, 20, 9, 0.274);
     height: auto;
     width: auto;
     border: 2px solid black;
@@ -136,23 +136,4 @@
 header {
     text-align: center;
     color: rgb(92, 141, 141);
-}
-
-/* dashed border around images decoration */
-body {
-    border: 4px dashed rgba(114, 81, 39, 0.226);
-    width: 526px;
-    height: 1450px;
-}
-
-/* footer edit */
-footer {
-    position: absolute;
-    float: left;
-    top: 1350px;
-    left: 2000px;
-    color:rgb(113, 50, 155);
-    font-family: 'Times New Roman', Times, serif;
-    border: 4px dashed rgba(114, 81, 39, 0.226);
-    padding: 4px;
 }
