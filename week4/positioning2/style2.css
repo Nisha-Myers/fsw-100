@@ -1,0 +1,126 @@
+/* background color */
+* {
+    background-color: antiquewhite;
+}
+
+/* navbar link edit */
+#about {
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    color:antiquewhite;
+    background-color: rgba(114, 82, 39, 0.664);
+    width: 100%;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 6px;
+}
+
+/* link decoration edits */
+#about {
+    text-decoration: none;
+    text-align: center;
+}
+#about:hover {
+    text-decoration: underline;
+}
+
+#uhc:hover {
+    text-decoration: underline;
+}
+
+#dmh:hover {
+    text-decoration: underline;
+}
+
+#ccc:hover {
+    text-decoration: underline;
+}
+
+/* "read more..." edit */
+#uhc, #dmh, #ccc {
+    text-decoration: none;
+    color: rgb(206, 117, 81); 
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 6px;
+} 
+
+/* screen border */
+body {
+    border: 6px dashed rgba(114, 82, 39, 0.664);
+    padding: px;
+}
+
+/* author credit */
+span {
+    color: rgb(31, 105, 98);
+}
+
+/* images edit */
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 20px solid rgba(114, 82, 39, 0.664);
+    text-align: center;
+    float: left;
+    shape-outside: circle();
+    margin: 30px;
+}
+
+/* header edit */
+header {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 75px;
+    text-align: center;
+    color: rgb(62, 99, 99);
+}
+
+/* headings edit */
+h2 {
+    margin: auto; 
+    font-family: 'Beau Rivage', cursive;
+    font-size: 60px;
+    color:sienna;
+}
+
+/* paragraph edits */
+p {
+    font-family: 'Caveat', cursive;
+    color: rgb(44, 88, 86);
+    text-align: justify;
+    font-size: 23px;
+    font-weight:bolder;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* itallic edit */
+i {
+    font-weight: bold;
+    color: rgb(120, 96, 124);
+}
+
+/* bold text edit */
+b {
+    font-weight:bolder;
+    font-size: 22px;
+    color: rgb(189, 102, 87);
+}
+
+/* date edit */
+#date {
+    font-weight: bold;
+    font-size: 19px;
+    color: rgba(83, 124, 143, 0.664);
+}
+
+
+#p1, #p2, #p3, #uhc, #dmh, #ccc {
+    padding-top: 55px;
+    display: inline-block;
+}
+
