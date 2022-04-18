@@ -1,41 +1,66 @@
+* {
+    
+}
+
 body {
     background-color: bisque;
 }
 
+/* navbar link edit */
+#about {
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    color:antiquewhite;
+    background-color: rgba(114, 82, 39, 0.664);
+    width: 100%;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 6px;
+}
+
+/* link decoration edits */
+#about {
+    text-decoration: none;
+    text-align: center;
+}
+#about:hover {
+    text-decoration: underline;
+}
+
 a {
-    color:darkmagenta;
+    color:rgba(114, 82, 39, 0.664);
     text-decoration: none;
     float: left;
     font-style: italic;
     font-weight: bold;
     margin-right: 6px;
 }
-a:hover {
-    text-decoration: underline;
-}
 
 #table1 {
-    background-color: bisque;
-    font-size: medium;
+    background-color: rgba(114, 82, 39, 0.664);
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
-    border: 4px solid black;
+    border: 7px solid rgba(114, 82, 39, 0.664);
 }
 
 #table2 {
-    background-color: bisque;
-    font-size: medium;
+    background-color: rgba(114, 82, 39, 0.664);
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
-    border: 4px solid black;
+    border: 7px solid rgba(114, 82, 39, 0.664);
 }
 
 #title {
-    color: tomato;
+    font-size: 29px;
+    color: rgb(241, 112, 89);
     font-weight: bolder;
     margin-bottom: 2px;
     text-align: center;
-    font-family: 'Courgette', cursive;
+    font-family: 'Beau Rivage', cursive;
 }
 
 .myTitles {
@@ -55,39 +80,76 @@ a:hover {
     color:darkslategrey
 }
 
+img {
+    margin: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid sienna;
+    shape-outside: circle();
+}
+img:hover {
+    opacity: 0.5;
+    border-radius: 100%;
+    border: 5px dashed darkcyan;
+}
+
+#mhc, #ush, #uhc {
+    font-size: 0px;
+    color: bisque; 
+}
+
+#mhc:hover {
+    font-size: 18px;
+}
+#ush:hover {
+    font-size: 18px;
+}
+#uhc:hover {
+    font-size: 18px;
+}
+
 b {
-    color:tomato;
+    color:rgb(241, 112, 89);
 }
 
 i {
-    color:darkcyan;
+    color:rgb(14, 129, 129);
 }
 
 header {
-    color: blue;
+    border: 5px dashed rgba(114, 82, 39, 0.664);
+    margin: 0px;
+    font-size: 40px;
+    color: sienna;
 }
 
 h2 {
+    font-size: 30px;
+    margin-bottom: 1px;
     color: darkslategray;
 }
 
 h3 {
-    color:teal;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color:rgb(182, 91, 69);
 }
 
 p, span {
     color: darkslategray;
-}
-
-header, h2, h3, p, span {
     font-family: 'Courgette', cursive;
 }
 
-header, h2 {
+header, h2, h3 {
+    font-family: 'Beau Rivage', cursive;
     text-align: center;
 }
 
 #bottom {
+    float: right;
     color:royalblue;
+    font-style: italic;
     font-family: 'Times New Roman', Times, serif;
 }
