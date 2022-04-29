@@ -22,8 +22,9 @@
 }
 
 
+@media only screen and (min-width: 608px) {
 
-/* Box 1 */
+    /* Box 1 */
 #flex-container > div:nth-child(1) {
     transition-duration: 3s;
     background-color: #abcbdb;
@@ -149,4 +150,146 @@
     color: burlywood;
     width: 200%;
     height: fit-content;
+}
+
+}
+
+
+@media only screen and (min-width: 1008px) {
+
+        /* Box 1 */
+#flex-container > div:nth-child(1) {
+    font-size: 100px;
+    transition-duration: 3s;
+    background-color: #abcbdb;
+    border: 10px solid rgba(145, 116, 78, 0.836);
+    box-shadow: 10px 10px 20px inset black;
+    height: 25em;
+    width: 16%;
+}
+#flex-container > div:nth-child(1):hover {
+    transition: background-color 3s;
+    border: 20px solid rgb(116, 92, 63);
+    background-color: #a76d9bb4;
+    box-shadow: 90px 70px 20px rgba(0, 0, 0, 0.562);
+    box-shadow: 10px 10px 20px inset black;
+    border-radius: 50%;
+    height: 10em;
+    width: 20%;
+    font-size: 60px;
+    font-family: 'Water Brush', cursive;
+    color:  #f3beb7;
+}
+
+
+
+/* Box 2 */
+#flex-container > div:nth-child(2) {
+    font-size: 100px;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 20px inset black;
+    background-color: #baacc9;
+    width: 16%;
+}
+#flex-container > div:nth-child(2):hover {
+    transition: background-color 2s linear;
+    background-color: #c98f87;
+    border: 12px dashed rgb(255, 228, 196);
+    width: 47%; 
+    height: 7em;
+    opacity: 30%;
+    box-shadow: 30px 60px 40px rgba(0, 0, 0, 0.562);
+    font-size: 85px;
+    font-family: 'Lavishly Yours', cursive;
+    color: #375857; 
+    margin-top: 80px;
+}
+
+
+
+/* Box 3 */
+#flex-container > div:nth-child(3) {
+    font-size: 100px;
+    transition-duration: 3s;
+    box-shadow: 10px 10px 20px inset black;
+    background-color: #acceb7;
+    width: 16%;
+}
+#flex-container > div:nth-child(3):hover {
+    transition: background-color 2s ease-in;
+    background-color: #a76d9bb4;
+    border: 6px solid rgba(145, 116, 78, 0.836);
+    border-radius: 50em;
+    height: 10em;
+    box-shadow: 90px 70px 80px 80px rgba(0, 0, 0, 0.562);
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    color: #b4dad8; 
+}
+
+
+
+/* Box 4 */
+#flex-container > div:nth-child(4) {
+    font-size: 100px;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 20px inset black;
+    background-color: #c98f87;
+    width: 26%;
+}
+#flex-container > div:nth-child(4):hover {
+    transition: background-color 2s ease-out;
+    background-color: #527a79; 
+    height: 4em;
+    width: 6%;
+    box-shadow: 90px 70px 20px rgba(0, 0, 0, 0.562);
+    border: 15px dotted #c98f87;
+    font-size: 85px;
+    font-family: 'Ingrid Darling', cursive;
+    color: burlywood;
+}
+
+
+
+/* Box 5 */
+#flex-container > div:nth-child(5) {
+    font-size: 100px;
+    transition-duration: 3s;
+    box-shadow: 10px 10px 20px inset black;
+    background-color: #a76d9bb4;
+    width: 16%;
+}
+#flex-container > div:nth-child(5):hover {
+    transition: background-color 2s ease-in-out;
+    background-color: #acceb7;
+    border: 15px solid rgba(155, 123, 84, 0.733);
+    box-shadow: 10px 10px 20px inset #527a79; 
+    font-size: 85px;
+    font-family: 'Meie Script', cursive;
+    color: #43646933; 
+    margin-top: 200px;
+}
+
+
+
+/* Box 6 */
+#flex-container > div:nth-child(6) {
+    font-size: 100px;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 20px inset black;
+    background-color: #527a79; 
+    width: 16%;
+}
+#flex-container > div:nth-child(6):hover {
+    transition: background-color 2s ease-in-out;
+    background-color:#c06457;
+    border: 10px solid rgb(255, 228, 196);
+    box-shadow: 10px 30px 60px inset #3fbd88; 
+    font-size: 70px;
+    font-family: 'Updock', cursive;
+    color: burlywood;
+    width: 15%;
+    height:fit-content 
+}
+
 }
