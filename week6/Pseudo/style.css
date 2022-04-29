@@ -1,3 +1,4 @@
+/* base */
 * {
     background-color: rgb(255, 228, 196);
     margin-top: 15px;
@@ -5,9 +6,10 @@
     padding: 1;
 }
 
-/* 'Great Vibes', cursive; */
+
+/* container */
 #flex-container {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Great Vibes', cursive;
     font-weight:bolder;
     font-size: 46px;
     display: grid;
@@ -17,6 +19,7 @@
     text-align: center;
     color: rgba(241, 215, 193, 0.897);
 }
+
 
 /* Box 1 */
 #flex-container > div:nth-child(1) {
@@ -35,10 +38,12 @@
     box-shadow: 10px 10px 20px inset black;
     border-radius: 50%;
     height: 7em;
+    width: 26%;
     font-size: 60px;
     font-family: 'Water Brush', cursive;
     color:  #f3beb7;
 }
+
 
 /* Box 2 */
 #flex-container > div:nth-child(2) {
@@ -60,6 +65,7 @@
     color: #375857; 
 }
 
+
 /* Box 3 */
 #flex-container > div:nth-child(3) {
     transition-duration: 3s;
@@ -79,6 +85,7 @@
     color: #b4dad8; 
 }
 
+
 /* Box 4 */
 #flex-container > div:nth-child(4) {
     transition-duration: 1s;
@@ -90,13 +97,14 @@
     transition: background-color 2s ease-out;
     background-color: #527a79; 
     height: 5em;
-    width: 16%;
+    width: 6%;
     box-shadow: 90px 70px 20px rgba(0, 0, 0, 0.562);
     border: 15px dotted #c98f87;
-    font-size: 80px;
+    font-size: 40px;
     font-family: 'Ingrid Darling', cursive;
     color: burlywood;
 }
+
 
 /* Box 5 */
 #flex-container > div:nth-child(5) {
@@ -113,6 +121,7 @@
     font-family: 'Meie Script', cursive;
     color: #43646933; 
 }
+
 
 /* Box 6 */
 #flex-container > div:nth-child(6) {
