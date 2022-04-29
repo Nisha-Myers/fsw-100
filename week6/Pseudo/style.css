@@ -3,7 +3,7 @@
     background-color: rgb(255, 228, 196);
     margin-top: 15px;
     margin-bottom: 20px;
-    padding: 1;
+    padding: 50;
 }
 
 
@@ -29,7 +29,7 @@
     background-color: #abcbdb;
     border: 10px solid rgba(145, 116, 78, 0.836);
     box-shadow: 10px 10px 20px inset black;
-    height: 55em;
+    height: 25em;
     width: 16%;
 }
 #flex-container > div:nth-child(1):hover {
@@ -58,7 +58,7 @@
 #flex-container > div:nth-child(2):hover {
     transition: background-color 2s linear;
     background-color: #c98f87;
-    border: 12px dashed rgba(145, 112, 73, 0.836);
+    border: 12px dashed rgb(255, 228, 196);
     width: 50%; 
     height: 3em;
     opacity: 30%;
@@ -142,10 +142,11 @@
 #flex-container > div:nth-child(6):hover {
     transition: background-color 2s ease-in-out;
     background-color:#c06457;
-    border: 10px solid rgb(77, 61, 40);
+    border: 10px solid rgb(255, 228, 196);
     box-shadow: 10px 30px 60px inset #3fbd88; 
     font-size: 70px;
     font-family: 'Updock', cursive;
     color: burlywood;
-    width: 23%;
+    width: 200%;
+    height: fit-content;
 }
