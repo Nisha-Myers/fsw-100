@@ -7,6 +7,7 @@
 }
 
 
+
 /* container */
 #flex-container {
     font-family: 'Great Vibes', cursive;
@@ -19,6 +20,7 @@
     text-align: center;
     color: rgba(241, 215, 193, 0.897);
 }
+
 
 
 /* Box 1 */
@@ -45,6 +47,7 @@
 }
 
 
+
 /* Box 2 */
 #flex-container > div:nth-child(2) {
     transition-duration: 1s;
@@ -67,6 +70,7 @@
 }
 
 
+
 /* Box 3 */
 #flex-container > div:nth-child(3) {
     transition-duration: 3s;
@@ -85,6 +89,7 @@
     font-family: 'Great Vibes', cursive;
     color: #b4dad8; 
 }
+
 
 
 /* Box 4 */
@@ -107,6 +112,7 @@
 }
 
 
+
 /* Box 5 */
 #flex-container > div:nth-child(5) {
     transition-duration: 3s;
@@ -123,6 +129,7 @@
     color: #43646933; 
     margin-top: 200px;
 }
+
 
 
 /* Box 6 */
