@@ -78,7 +78,7 @@
     background-color: #a76d9bb4;
     border: 6px solid rgba(145, 116, 78, 0.836);
     border-radius: 50em;
-    height: 10em;
+    height: 5em;
     box-shadow: 90px 70px 80px 80px rgba(0, 0, 0, 0.562);
     font-size: 50px;
     font-family: 'Great Vibes', cursive;
@@ -96,11 +96,11 @@
 #flex-container > div:nth-child(4):hover {
     transition: background-color 2s ease-out;
     background-color: #527a79; 
-    height: 5em;
+    height: 6em;
     width: 6%;
     box-shadow: 90px 70px 20px rgba(0, 0, 0, 0.562);
     border: 15px dotted #c98f87;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Ingrid Darling', cursive;
     color: burlywood;
 }
