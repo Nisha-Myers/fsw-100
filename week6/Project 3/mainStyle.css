@@ -1,0 +1,394 @@
+/* my container */
+.myPage {
+    background-color: antiquewhite;
+
+    justify-content: space-evenly;
+    grid-gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr, 1fr, 1fr, 1fr;
+    grid-auto-rows: minmax(15vh, auto );
+    grid-template-columns: 1fr 575px;
+}
+
+
+
+/* ---------------------------------- MAIN SECTIONS ---------------------------------- */
+
+
+/* 1.) navigation bar */
+nav {
+    color: black;
+    border: 5px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 10px 6px inset rgb(122, 71, 29);
+
+    width: 1200px;
+    height: min-content;
+    padding: 5px;
+    opacity: 50%;
+    position: fixed;
+   
+    grid-column: 1/5;
+    grid-row: 1/15;
+
+    display: flex;
+    justify-content: space-around;
+}
+nav:hover {
+    transition: background-color 3s;
+    border: 5px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: #b18caab4;
+    box-shadow: 90px 70px 20px rgba(0, 0, 0, 0.562);
+    box-shadow: 10px 10px 20px inset rgb(165, 231, 206);
+    opacity: 100%;
+}
+
+
+/* 2.) Equality & Liber(al)ty */
+header {
+    text-shadow: 40px 20px rgba(71, 25, 3, 0.123);
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+
+    padding: 15px;
+    width: 568px;
+    height: min-content;
+    margin: 15px;
+
+    grid-column: 2/5;
+    grid-row: 1/15;
+}
+
+
+/* 3.) liberal Definition */
+.liberal {
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+    color: black;
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    font-size: 16px;
+
+    width: 630px;
+    height: min-content;
+    padding: 5px;
+    
+    grid-column: 1/5;
+    grid-row: 2/15;
+}
+
+
+/* 4.) Liberals are for Love & Liberty */
+/* 4.) Why have Liberals Been Given Such a Bad Name? */
+.why {
+    padding: 20px;
+    color: black;
+
+    width: 600px;
+    height: min-content;
+
+    grid-column: 4/5;
+    grid-row: 1/15;
+}
+
+
+/* 5.) What Have Liberals Done for Our Country? */
+.what {
+    width: 700px;
+    color: black;
+
+    padding: 15px;
+    width: 500px;
+    height: min-content;
+    margin: 15px;
+    
+    grid-column: 2/5;
+    grid-row: 6/15;
+}
+
+
+/* 6.) Ten Reasons The World Needs Liberals */
+.list {
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+    padding: 20px;
+    color: black;
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    
+    padding: 15px;
+    width: 568px;
+    height: min-content;
+    margin: 1px;
+
+    grid-column: 4/5;
+    grid-row: 7/15;
+}
+
+
+/* 7.) */
+table {
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+    color: black;
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+
+    text-align: center;
+
+    padding: 15px;
+    width: 568px;
+    height: min-content;
+
+    margin-left: 40px;
+
+    grid-column: 1/5;
+    grid-row: 10/15;
+}
+
+
+/* 8.) */
+aside {
+    padding: 20px;
+    color: black;
+
+    padding: 15px;
+    width: 568px;
+    height: min-content;
+    margin: 15px;
+
+    grid-column: 1/5;
+    grid-row: 6/15;
+}
+
+
+/* 9.) */
+footer {
+    padding: 20px;
+    color: black;
+
+    width: 600px;
+    height: min-content;
+
+    grid-column: 1/5;
+    grid-row: 12/15;
+}
+
+/*
+/* 10.) span above ASIDE */
+.span1 {
+    padding: 20px;
+    color: black;
+
+    padding: 15px;
+    width: 500px;
+    height: min-content;
+    margin: 1px;
+    
+    grid-column: 1/5;
+    grid-row: 8/15;
+}
+
+
+/* 11.) bottom span */
+.span2 {
+    padding: 20px;
+    color: black;
+
+    padding: 15px;
+    width: 500px;
+    height: min-content;
+    margin: 15px;
+
+    grid-column: 2/5;
+    grid-row: 9/15;
+}
+*/
+
+
+/* ---------------------------------- mini sections ---------------------------------- */
+
+
+/* navigation bar */
+
+.about {
+    opacity: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(2, 36, 36);
+}
+.about:hover {
+    font-size: 28px;
+    text-decoration: underline;
+    color: rgb(70, 44, 23);
+}
+
+/* Liberal definition */
+
+#ltitle {
+    text-shadow: 10px 8px 3px rgba(0, 0, 0, 0.096);
+}
+
+#an {
+    text-shadow: 10px 8px 3px rgba(0, 0, 0, 0.096);
+    font-size: 30px;
+}
+
+
+/* Liberals are for Love & Liberty */
+
+#lal {
+    text-align: center;
+    font-family: 'Babylonica', cursive;
+    font-size: 70px;
+
+    padding: 2px;
+}
+
+/* Why have Liberals Been Given Such a Bad Name? */
+
+#badName {
+
+    padding: 2px;
+}
+
+/* What Have Liberals Done for Our Country? */
+#weDone {
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 50px;
+}
+
+
+/* h1, h2, h3, & paragraphs */
+
+h1 {
+    padding: 20px;
+    color: black;
+}
+
+h2 {
+    padding: 20px;
+    color: black;
+    font-size: 35px;
+}
+
+h3 {
+    padding: 20px;
+    color: black;
+}
+
+p {
+    padding: 1px;
+    color: black;
+}
+
+
+/* bold & itallic */
+
+b {
+    color: black;
+    font-size: 17px;
+}
+
+i {
+    color: black;
+}
+
+
+/* ASIDE */
+
+#aSide {
+    font-size: 50px;
+    font-family: 'Lavishly Yours', cursive;
+}
+
+
+/* SPAN 1 & SPAN 2 */
+
+#span1 {
+    font-size: 50px;
+    font-family: 'Lavishly Yours', cursive;
+}
+
+#span2 {
+    font-size: 50px;
+    font-family: 'Lavishly Yours', cursive;
+}
+
+
+/* FOOTER */
+
+#myFoot {
+    font-size: 50px;
+    font-family: 'Lavishly Yours', cursive;
+}
+
+
+/* list related */
+
+#num {
+    font-size: 15px;
+}
+
+/* Ten Reasons The World Needs Liberals */
+#listCap {
+    text-align: center;
+    margin-top: auto;
+    padding: 9px;
+}
+
+
+/* detailed list */
+
+dl {
+    padding: 20px;
+    color: black;
+}
+
+dt {
+}
+
+dd {
+}
+
+
+/* table */
+
+caption {
+    padding: 10px;
+    color: black;
+}
+
+thead {
+    color: black;
+}
+
+tr {
+    color: black;
+}
+
+th {
+    color: black;
+}
+
+tbody {
+    color: black;
+}
+
+td {
+    color: black;
+}
+
+/* CAPTION of TABLE */
+
+#cap {}
+
+
+}
