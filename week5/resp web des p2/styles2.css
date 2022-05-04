@@ -3,52 +3,44 @@
     padding: 0;
 }
 
-#myPage {
+#grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(15vh, auto );
     grid-gap: 15px;
+    color: white;
+   
 }
 
 
 @media only screen and (max-width: 767px) {
 
-header {
-    font-size: 40px;
+.header {
     background-color: grey;
     grid-column: 1/5;
     border-radius: 8px;
    
     }
 
-#liberal {
-    font-size: 40px;
+.sidebar {
     background-color: rgb(59, 59, 59);
     grid-column: 1/5;
     border-radius: 8px;
-
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
 }
 
-#why {
-    font-size: 20px;
+.content {
     background-color:  rgb(59, 59, 59);
     grid-column: 1/5;
     border-radius: 8px;
 }
 
-table {
-    font-size: 40px;
-    color: black;
+.sidebar2 {
     background-color: lightgray;
     grid-column: 1/5;
     border-radius: 8px;
 }
 
-footer {
-    font-size: 40px;
+.footer {
     background-color: grey;
     grid-column: 1/5;
     border-radius: 8px;
@@ -60,32 +52,32 @@ footer {
 
 
 
-header {
+.header {
     background-color: grey;
     grid-column: 1/5;
     border-radius: 8px;
        
     }
     
-#liberal {
+.sidebar {
     background-color: rgb(59, 59, 59);
     grid-column: 1/2;
     border-radius: 8px;
     }
     
-#why {
+.content {
     background-color:  rgb(59, 59, 59);
     grid-column: 2/5;
     border-radius: 8px;
     }
     
-table {
+.sidebar2 {
     background-color: lightgray;
     grid-column: 1/5;
     border-radius: 8px;
     }
     
-footer {
+.footer {
     background-color: grey;
     grid-column: 1/5;
     border-radius: 8px;
@@ -96,32 +88,32 @@ footer {
 @media only screen and  (min-width: 1024px) and (max-width: 1366px){
 
 
-header {
+.header {
     background-color: grey;
     grid-column: 1/5;
     border-radius: 8px;
           
     }
     
-#liberal {
+.sidebar {
     background-color: rgb(59, 59, 59);
     grid-column: 1/2;
     border-radius: 8px;
     }
     
-#why {
+.content {
     background-color:  rgb(59, 59, 59);
     grid-column: 2/4;
     border-radius: 8px;
     }
     
-table {
+.sidebar2 {
     background-color: lightgray;
     grid-column: 4/5;
     border-radius: 8px;
     }
     
-footer {
+.footer {
     background-color: grey;
     grid-column: 1/5;
     border-radius: 8px;

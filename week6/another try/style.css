@@ -1,0 +1,423 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    background-color: antiquewhite;
+}
+
+
+/* -------------- MAIN sections -------------- */
+.header {
+    text-shadow: 20px 20px rgba(71, 25, 3, 0.123);
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+
+    color: rgb(100, 52, 29);
+
+    margin: 5px;
+}
+
+a {
+    background-color: rgba(233, 188, 122, 0.432);
+
+    text-shadow: 40px 20px rgba(71, 25, 3, 0.123);
+    text-decoration: none;
+    color: rgb(100, 52, 29);
+
+    border-radius: 50%;
+
+    position: fixed;
+    padding: 5px;
+}
+a:hover {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.myList {
+    margin: 5px;
+}
+
+.main {
+}
+
+.footer {
+    font-family: 'Lavishly Yours', cursive;
+}
+
+/* -------------- small details -------------- */
+.list {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    padding: 5px;
+}
+
+.listCap {
+    text-shadow: 20px 20px rgba(71, 25, 3, 0.123);
+    font-family: 'Lavishly Yours', cursive;
+    text-align: center;
+}
+
+dt {
+    font-weight: bolder;
+}
+
+.def {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    width: fit-content;
+    float: left;
+}
+
+.term {
+    text-shadow: 20px 20px rgba(71, 25, 3, 0.123);
+    font-family: 'Lavishly Yours', cursive;
+}
+
+.ltitle {}
+
+.an {}
+
+.num {}
+
+.table {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    text-align: center;
+
+    padding: 5px;
+    width: fit-content;
+    float: right;
+}
+
+#cap {
+    font-size:xx-large;
+}
+
+th {
+    font-size: large;
+}
+
+.con {}
+
+#opp {
+    color: red;
+}
+
+.lib {}
+
+#win {
+    color: rgb(88, 88, 248);
+}
+
+.mean {
+    text-shadow: 20px 20px rgba(71, 25, 3, 0.123);
+    font-family: 'Lavishly Yours', cursive;
+    text-align: center;
+}
+
+.why {
+    text-shadow: 20px 10px rgba(71, 25, 3, 0.123);
+    font-family: 'Lavishly Yours', cursive;
+}
+
+/* ------------------------------------- small ------------------------------------- */
+@media only screen and (min-width: 360px) {
+.header {
+    font-size: 37px;
+        
+    padding: 0px;
+        
+    grid-column: 1/5;
+}
+        
+a {
+    font-size: 20px;
+}
+        
+.myList {
+    padding: 10px;
+    margin: 5px;
+        
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
+        
+.main {
+    padding: 20px;
+    margin: 15px;
+        
+    grid-column: 1/5;
+    grid-row: 2/4;
+}
+        
+.footer {
+    font-size: 26px;
+    text-align: center;
+        
+    padding-left: 60px;
+    padding-right: 90px;
+          
+    grid-column: 1/5;
+}
+        
+        
+/* -------------- small details -------------- */
+.list {    
+    padding: 5px;
+}
+        
+.listCap {}
+        
+.def {
+    margin: 15px;
+    padding: 25px;
+}
+        
+.term {
+    font-size: 20px;
+}
+        
+.ltitle {
+    font-size: 35px;
+}
+        
+.an {}
+        
+.num {}
+        
+.table {
+    margin: 10px;
+    padding: 5px;
+}
+        
+#cap {
+    padding: 3%;
+}
+        
+th {}
+        
+.con {}
+        
+#opp {}
+        
+.lib {}
+        
+#win {}
+        
+.mean {
+    padding-bottom: -89%;
+    
+    font-size: 20px;
+}
+        
+.why {
+    margin-top: 15%;
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+}
+
+
+/* ------------------------------------- medium ------------------------------------- */
+@media only screen and (min-width: 768px) {
+.header {
+    font-size: 60px;
+    
+    padding: 0px;
+    
+    grid-column: 1/5;
+}
+    
+a {
+    font-size: 30px;
+}
+    
+.myList {
+    padding: 10px;
+    margin: 5px;
+    
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+    
+.main {
+    padding: 20px;
+    margin: 15px;
+    
+    grid-column: 2/5;
+    grid-row: 2/4;
+}
+    
+.footer {
+    font-size: 26px;
+    
+    padding-left: 60px;
+    padding-right: 90px;
+      
+    grid-column: 1/5;
+}
+    
+    
+/* -------------- small details -------------- */
+.list {    
+    padding: 5px;
+}
+    
+.listCap {}
+    
+.def {
+    margin: 15px;
+    padding: 25px;
+}
+    
+.term {
+    font-size: 25px;
+}
+    
+.ltitle {
+    font-size: 35px;
+}
+    
+.an {}
+    
+.num {}
+    
+.table {
+    margin: 10px;
+    padding: 5px;
+}
+    
+#cap {
+    padding: 3%;
+}
+    
+th {}
+    
+.con {}
+    
+#opp {}
+    
+.lib {}
+    
+#win {}
+    
+.mean {
+    padding-bottom: -89%;
+    font-size: 30px;
+}
+    
+.why {
+    margin-top: 15%;
+    font-size: 26px;
+}
+
+}
+
+
+/* ------------------------------------- big ------------------------------------- */
+@media only screen and (min-width: 1024px) {
+.header {
+    font-size: 60px;
+
+    padding: 0px;
+
+    grid-column: 1/5;
+}
+
+a {
+    font-size: 30px;
+}
+
+.myList {
+    padding: 10px;
+    margin: 5px;
+
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.main {
+    padding: 20px;
+    margin: 15px;
+
+    grid-column: 2/5;
+    grid-row: 2/4;
+}
+
+.footer {
+    font-size: 30px;
+
+    padding-left: 100px;
+    padding-right: 700px;
+  
+    grid-column: 1/5;
+}
+
+
+/* -------------- small details -------------- */
+.list {
+
+    padding: 5px;
+}
+
+.listCap {}
+
+.def {
+    margin: 15px;
+    padding: 25px;
+}
+
+.term {
+    font-size: 35px;
+}
+
+.ltitle {
+    font-size: 35px;
+}
+
+.an {}
+
+.num {}
+
+.table {
+    margin: 10px;
+    padding: 5px;
+}
+
+#cap {
+    padding: 3%;
+}
+
+th {}
+
+.con {}
+
+#opp {}
+
+.lib {}
+
+#win {}
+
+.mean {
+    padding-bottom: -89%;
+    font-size: 40px;
+}
+
+.why {
+    margin-top: 15%;
+    font-size: 39px;
+}
+
+}

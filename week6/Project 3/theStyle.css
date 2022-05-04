@@ -1,0 +1,385 @@
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr 1fr;
+    grid-auto-rows: minmax(15vh, auto );
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    background-color: blanchedalmond;
+}
+
+nav {
+    position: fixed;
+    font-size: 25px;
+
+    margin-left: 45%
+}
+nav:hover {
+    font-size: 32px;
+}
+
+h1, h3 {
+    text-align: center
+}
+
+.def {
+    padding: 2%;
+}
+
+.what {
+    display: ;
+}
+
+.list {
+    padding: 3%;
+}
+
+.table {
+align-items: center;
+
+    margin: 20px;
+}
+
+.footer {
+    margin: 1%;
+    padding: 2%;
+}
+
+@media only screen and (min-width: 375px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+.header {
+    grid-column: 1/5;
+    grid-row: ;
+    border-radius: 8px;
+
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 40px 20px rgba(71, 25, 3, 0.123);
+}
+
+.content {
+    height: min-content;
+
+    color: black;
+
+    grid-column: 1/5;
+    grid-row: 2/7;
+    border-radius: 8px;
+}
+
+.list {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    color: black;
+    
+    grid-column: 1/7;
+    grid-row: /;
+    border-radius: 8px;
+}
+
+.liberal {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    color: black;
+
+    height: min-content;
+    width: max-content;
+
+    grid-column: 5/5;
+    grid-row: 3/7;
+    border-radius: 8px;
+}
+
+.what {
+    grid-column: /;
+    grid-row: /;
+    border-radius: 8px;
+
+    height: min-content;
+}
+
+.table {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    color: black;
+
+    height: min-content;
+    width: max-content;
+    margin-left: 160px;
+
+    grid-column: 4/5;
+    grid-row: 6/7;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: rgb(107, 223, 252);
+    grid-column: /5;
+    grid-row: 3/7;
+    border-radius: 8px;
+
+    height: min-content;
+}
+
+
+/* -------------- small details -------------- */
+
+/* LIBERAL Definition */
+.def {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    color: black;
+}
+
+.listCap {
+    text-align: center;
+    font-family: 'Lavishly Yours', cursive;
+    text-shadow: 20px 12px rgba(71, 25, 3, 0.123);
+    font-size: 40px;
+
+    padding: 6px;
+}
+
+.an {}
+
+.num {}
+
+.nadName {}
+
+.cap {}
+
+.myFoot {}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 820px)  {
+
+
+
+.header {
+    grid-column: 1/5;
+    grid-row: ;
+    border-radius: 8px;
+       
+    }
+    
+.list {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    color: black;
+
+    height: min-content;
+
+    grid-column: 1/2;
+    grid-row: /;
+    border-radius: 8px;
+}
+
+.liberal {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    color: black;
+
+    height: min-content;
+
+    grid-column: 1/4;
+    grid-row: /;
+    border-radius: 8px;
+}
+    
+.table {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    color: black;
+
+    height: min-content;
+
+    grid-column: 1/4;
+    grid-row: /;
+    border-radius: 8px;
+}
+
+    
+.content {
+    grid-column: 2/5;
+    grid-row: /;
+    border-radius: 8px;
+
+    height: min-content;
+    }
+    
+.what {
+    grid-column: /;
+    border-radius: 8px;
+
+    height: min-content;
+    }
+    
+.footer {
+    background-color: rgb(107, 223, 252);
+    grid-column: 1/5;
+    grid-row: /;
+    border-radius: 8px;
+
+    height: min-content;
+    }
+
+    
+/* -------------- small details -------------- */
+
+/* LIBERAL Definition */
+.listCap {
+    font-family: 'Lavishly Yours', cursive;
+}
+
+.an {}
+
+.num {}
+
+.nadName {}
+
+.cap {}
+
+.myFoot {}
+
+
+}
+
+
+
+
+@media only screen and  (min-width: 1024px) {
+
+
+.header {
+    grid-column: 1/5;
+    border-radius: 8px;
+
+    height: min-content;
+}
+    
+.list {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    color: black;
+
+    height: min-content;
+
+    grid-column: 1/2;
+    grid-row: /;
+    border-radius: 8px;
+}
+
+.liberal {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    color: black;
+
+    height: min-content;
+
+    grid-column: 1/2;
+    grid-row: /;
+    border-radius: 8px;
+}
+        
+.table {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    color: black;
+
+    height: min-content;
+
+    grid-column: 1/4;
+    grid-row: /;
+    border-radius: 8px;
+}
+    
+.content {
+    grid-column: 2/4;
+    grid-row: /;
+    border-radius: 8px;
+
+    height: min-content;
+}
+    
+.what {
+    grid-column: 4/5;
+    grid-row: /;
+    border-radius: 8px;
+
+    height: min-content;
+}
+    
+.footer {
+    background-color: rgb(107, 223, 252);
+    grid-column: 1/5;
+    grid-row: /;
+    border-radius: 8px;
+
+    height: min-content;
+}
+
+    
+/* -------------- small details -------------- */ 
+
+/* LIBERAL Definition */
+.listCap {
+    font-family: 'Lavishly Yours', cursive;
+}
+
+.an {}
+
+.num {}
+
+.nadName {}
+
+.cap {}
+
+.myFoot {}
+
+
+}
