@@ -4,9 +4,11 @@ body {
 }
 
 h1 {
+    font-family: 'Great Vibes', cursive;
+
     color: bisque;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-style: italic;
 }
 
@@ -31,8 +33,9 @@ table {
 }
 
 #myTitles {
+    font-family: 'Great Vibes', cursive;
     color: lightsalmon;
-    font-size: x-large;
+    font-size: 30px;
 }
 
 #inner {

@@ -1,0 +1,372 @@
+/* placing gaps between boxes */
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+
+/* page PLACEMENT */
+
+
+/* HEADER */
+.header {
+  border: 17px solid;
+  border-image: url(marble.jpg) 30;
+  background-image: url(fight.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+
+  text-shadow: 15px 18px rgba(0, 0, 0, 0.397);
+  font-family: 'Lavishly Yours', cursive;
+  text-align: center;
+
+  color: rgb(23, 40, 41);
+}
+
+#matter {
+  color: rgb(64, 119, 121);
+}
+
+
+/* NAV-BAR */
+.nav {
+}
+
+#moving {
+  text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
+  font-family: 'Lavishly Yours', cursive;
+
+  color: rgb(148, 52, 37);
+}
+
+ul {
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(44, 21, 10, 0);
+}
+li {
+}
+a:hover {
+  transition-duration: 1s;
+  opacity: 30%;
+
+  color: rgba(255, 255, 255, 0);
+  text-decoration:underline;
+}
+
+img {
+  box-shadow: 30px 25px 53px 18px rgba(0, 0, 0, 0.7);
+
+  border-radius: 50%;
+}
+
+
+/* MAIN SECTION */
+.main {
+  grid-column: 2/5;
+  grid-row: 3/4;
+}
+
+p {
+}
+
+h3 {
+  text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
+  font-family: 'Lavishly Yours', cursive;
+}
+
+
+/* CAUSES */
+.aside {
+  grid-column: 1/2;
+  grid-row: 3/3;
+}
+
+#causes {
+  text-shadow: 20px 20px rgba(68, 45, 19, 0.178);
+  font-family: 'Lavishly Yours', cursive;
+
+  text-align: center;
+  color: rgb(64, 119, 121);
+}
+
+
+/* FOOTER */
+.footer {
+  text-shadow: 20px 10px rgba(0, 0, 0, 0.295);
+  font-family: 'Lavishly Yours', cursive;
+
+  text-align: center;
+}
+
+
+
+/* ------------------------------------- small ------------------------------------- */
+@media only screen and (min-width: 320px) {
+  /* HEADER */
+  .header {
+    font-size: 20px;
+    
+    height:fit-content;
+    grid-column: 1/5;
+  }
+  
+  #liberal {
+    font-size: 50px;
+  }
+  
+  #matter {
+    font-size: 24px;
+  }
+  
+  
+  
+  /* NAV-BAR */
+  .nav {
+    grid-column: 1/5;
+  }
+  
+  #moving {
+    padding: .8%;
+    margin-left: 4%;
+  }
+  
+  ul {
+  }
+  li {
+    display:inline-flex;  
+  }
+  a:hover {
+  }
+  
+  img {
+    border-radius: 50%;
+  
+    width: 50px;
+    height: 50px;
+  }
+  
+  
+  
+  /* MAIN SECTION */
+  .main {
+    padding: 1%;
+  
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  
+  p {
+    padding: 7%;
+  }
+  
+  h3 {
+    font-size: 26px;
+  }
+  
+  
+  
+  /* CAUSES */
+  .aside {
+    grid-column: 1/2;
+    grid-row: 5/5;
+  }
+  
+  #causes {
+    font-size: 26px;
+  
+    margin-right: 10%;
+  }
+  
+  
+  
+  /* FOOTER */
+  .footer {
+    font-size: 20px;
+  }
+  
+  
+  
+  
+  /* ------------------------------------- medium ------------------------------------- */
+  @media only screen and (min-width: 768px) {
+  /* HEADER */
+  .header {
+    font-size: 57px;
+    
+    height:fit-content;
+    grid-column: 1/5;
+  }
+  
+  #liberal {
+    font-size: 130px;
+  }
+  
+  #matter {
+    font-size: 50px;
+  }
+  
+  /* NAV-BAR */
+  .nav {
+    grid-column: 1/5;
+  }
+  
+  #moving {
+    padding: .8%;
+    margin-left: 4%;
+  }
+  
+  ul {
+  }
+  li {
+  }
+  a:hover {
+  }
+  
+  img {
+    border-radius: 50%;
+  
+    width: 130px;
+    height: 100px;
+  }
+  
+  
+  
+  /* MAIN SECTION */
+  .main {
+    padding: 1%;
+  
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  
+  p {
+    padding: 1%;
+  }
+  
+  h3 {
+    font-size: 38px;
+  }
+  
+  
+  
+  /* CAUSES */
+  .aside {
+    padding: 2%;
+    margin-right: 2%;
+  
+    grid-column: 1/6;
+    grid-row: 4/5;
+  }
+  
+  #causes {
+    font-size: 50px;
+  
+    margin-left: 15%;
+  }
+  
+  
+  
+  /* FOOTER */
+  .footer {
+    font-size: 30px;
+  }
+  
+  
+  
+  /* ------------------------------------- large ------------------------------------- */
+  @media only screen and (min-width: 1024px) {
+  /* HEADER */
+  .header {
+    font-size: 75px;
+    
+    height:fit-content;
+    grid-column: 1/5;
+  }
+  
+  #liberal {
+    font-size: 180px;
+  }
+  
+  #matter {
+    font-size: 80px;
+  }
+  
+  
+  
+  /* NAV-BAR */
+  .nav {
+    grid-column: 1/5;
+  }
+  
+  #moving {
+    padding: .8%;
+    margin-left: 4%;
+  }
+  
+  ul {
+    display:inline-flex;  
+    margin-left: 25%;
+  
+  }
+  li {
+    display:inline-flex;  
+  }
+  a:hover {
+  }
+  
+  img {
+    border-radius: 50%;
+  
+    width: 130px;
+    height: 100px;
+  }
+  
+  
+  
+  /* MAIN SECTION */
+  .main {
+    padding: 1%;
+  
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  
+  p {
+    font-size: 15px;
+  
+    padding: 1%;
+  }
+  
+  h3 {
+    font-size: 45px;
+  }
+  
+  
+  
+  /* CAUSES */
+  .aside {
+    padding: 2%;
+    margin-right: 45%;
+  
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  
+  #causes {
+    font-size: 66px;
+  
+    margin-left: 10%;
+  }
+  
+  
+  
+  /* FOOTER */
+  .footer {
+  }
+  
+  }

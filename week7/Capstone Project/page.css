@@ -1,0 +1,557 @@
+/* placing gaps between boxes */
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+
+/* page PLACEMENT */
+
+
+/* HEADER */
+.header {
+    border: 17px solid;
+    border-image: url(marble.jpg) 30;
+    background-image: url(protesters.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+
+    text-shadow: 15px 18px rgba(255, 255, 255, 0.349);
+    font-family: 'Lavishly Yours', cursive;
+    text-align: center;
+
+    color: rgb(241, 174, 163);
+}
+
+#liberal {
+    color: rgb(255, 255, 255);
+}
+
+#matter {
+    text-shadow: 15px 18px rgba(255, 255, 255, 0.349);
+    color: rgb(241, 174, 163);
+}
+
+
+/* NAV-BAR */
+.nav {
+}
+
+#moving {
+    text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
+    font-family: 'Lavishly Yours', cursive;
+
+    color: rgb(202, 136, 126);
+}
+
+#fighting {
+    color: rgb(148, 52, 37);
+}
+
+ul {
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(44, 21, 10, 0);
+}
+li {
+}
+a:hover {
+    transition-duration: 1s;
+    opacity: 30%;
+
+    color: rgba(255, 255, 255, 0);
+    text-decoration:underline;
+}
+
+img {
+    box-shadow: 30px 25px 53px 18px rgba(0, 0, 0, 0.7);
+
+    border-radius: 50%;
+}
+
+
+/* MAIN SECTION */
+.main {
+    grid-column: 2/5;
+    grid-row: 3/4;
+}
+
+#world {
+    text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
+    font-family: 'Lavishly Yours', cursive;
+}
+
+#why {
+}
+
+p {
+}
+
+h3 {
+    text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
+    font-family: 'Lavishly Yours', cursive;
+}
+
+#click {
+    color: rgb(148, 52, 37);
+}
+
+#or {
+}
+
+#create {
+}
+
+
+/* liberal DEFINITION */
+.def {
+    border: 15px solid;
+    border-image: url(marble.jpg) 30;
+    background-color: blanchedalmond;
+    box-shadow: 4px 1px 70px 10px inset rgb(122, 71, 29);
+
+    width:fit-content;
+}
+
+.liberal {
+    font-size: xx-large;
+}
+
+.an {
+    font-size: larger;
+}
+
+
+
+/* CAUSES */
+.aside {
+    grid-column: 1/2;
+    grid-row: 3/3;
+}
+
+#causes {
+    text-shadow: 20px 20px rgba(68, 45, 19, 0.178);
+    font-family: 'Lavishly Yours', cursive;
+
+    text-align: center;
+    color: rgb(148, 52, 37);
+}
+
+
+/* FOOTER */
+.footer {
+    text-shadow: 20px 10px rgba(0, 0, 0, 0.295);
+    font-family: 'Lavishly Yours', cursive;
+
+    text-align: center;
+}
+
+#myFoot {}
+
+
+
+
+/* ------------------------------------- small ------------------------------------- */
+@media only screen and (min-width: 320px) {
+/* HEADER */
+.header {
+  font-size: 20px;
+  
+  height:fit-content;
+  grid-column: 1/5;
+}
+
+#liberal {
+  font-size: 50px;
+}
+
+#matter {
+  font-size: 24px;
+}
+
+
+/* NAV-BAR */
+.nav {
+    grid-column: 1/5;
+}
+
+#moving {
+    padding: .8%;
+    margin-left: 4%;
+}
+
+ul {
+}
+li {
+    display:inline-flex;  
+}
+a:hover {
+}
+
+img {
+    border-radius: 50%;
+
+    width: 50px;
+    height: 50px;
+}
+
+
+/* MAIN SECTION */
+.main {
+    padding: 1%;
+
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+#world {
+    font-size: 20px;
+
+    margin: 4%;
+}
+
+#why {
+    font-size: 16px;
+}
+
+p {
+    padding: 7%;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#click {
+}
+
+#or {}
+
+#create {
+    padding: 2%;
+}
+
+
+/* liberal DEFINITION */
+.def {
+    float: right;
+
+    padding: 2%;
+
+    width: fit-content;
+}
+
+.liberal {
+    font-size: xx-large;
+}
+
+.an {
+    font-size: larger;
+}
+
+
+
+/* CAUSES */
+.aside {
+    grid-column: 1/2;
+    grid-row: 5/5;
+}
+
+#causes {
+  font-size: 26px;
+
+  margin-right: 10%;
+}
+
+
+/* FOOTER */
+.footer {
+    font-size: 20px;
+}
+
+#myFoot {}
+
+}
+
+
+
+
+/* ------------------------------------- medium ------------------------------------- */
+@media only screen and (min-width: 768px) {
+/* HEADER */
+.header {
+    font-size: 50px;
+    
+    height:fit-content;
+    grid-column: 1/5;
+}
+
+#liberal {
+    font-size: 150px;
+}
+
+#matter {
+    font-size: 60px;
+}
+
+
+/* NAV-BAR */
+.nav {
+    grid-column: 1/5;
+}
+
+#moving {
+    font-size: 55px;
+
+    padding: .8%;
+    margin-left: 4%;
+}
+
+ul {
+}
+li {
+}
+a:hover {
+}
+
+img {
+    border-radius: 50%;
+
+    width: 130px;
+    height: 100px;
+}
+
+
+/* MAIN SECTION */
+.main {
+    padding: 1%;
+
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+#world {
+    font-size: 30px;
+
+    margin: 4%;
+}
+
+#why {
+    font-size: 16px;
+}
+
+p {
+    padding: 1%;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+#click {
+}
+
+#or {}
+
+#create {
+    padding: 2%;
+}
+
+
+/* liberal DEFINITION */
+.def {
+    padding: 1%;
+    margin: 2%;
+    margin-top: 2%;
+
+    width: 480px;
+
+    grid-column: 1/5;
+    grid-row: 3/5;
+}
+
+.liberal {
+    font-size: xx-large;
+}
+
+.an {
+    font-size: larger;
+}
+
+
+
+/* CAUSES */
+.aside {
+    padding: 2%;
+    margin-right: 2%;
+
+    grid-column: 1/6;
+    grid-row: 4/5;
+}
+
+#causes {
+    font-size: 50px;
+
+    margin-left: 15%;
+}
+
+
+/* FOOTER */
+.footer {
+    font-size: 30px;
+}
+
+#myFoot {}
+
+}
+
+
+
+/* ------------------------------------- large ------------------------------------- */
+@media only screen and (min-width: 1024px) {
+/* HEADER */
+.header {
+    font-size: 67px;
+    
+    height:fit-content;
+    grid-column: 1/5;
+}
+
+#liberal {
+  font-size: 180px;
+}
+
+#matter {
+  font-size: 80px;
+}
+
+
+/* NAV-BAR */
+.nav {
+    grid-column: 1/5;
+}
+
+#moving {
+    font-size: 64px;
+
+    padding: .8%;
+    margin-left: 4%;
+}
+
+ul {
+    display:inline-flex;  
+    margin-left: 25%;
+
+}
+li {
+    display:inline-flex;  
+}
+a:hover {
+}
+
+img {
+    border-radius: 50%;
+
+    width: 130px;
+    height: 100px;
+}
+
+
+/* MAIN SECTION */
+.main {
+    padding: 1%;
+
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+#world {
+    text-align: center;
+    font-size: 38px;
+
+    margin: 4%;
+}
+
+#why {
+    font-size: 16px;
+}
+
+p {
+    font-size: 15px;
+
+    padding: 1%;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+#click {
+}
+
+#we {
+    font-size: 16px;
+}
+
+#or {
+    margin-left: 20%;
+}
+
+#create {
+    padding: 2%;
+}
+
+
+/* liberal DEFINITION */
+.def {
+    padding: 1%;
+    margin: 2%;
+    margin-top: 3%;
+
+    width: 480px;
+
+    grid-column: 1/5;
+    grid-row: 3/5;
+}
+
+.liberal {
+    font-size: xx-large;
+}
+
+.an {
+    font-size: larger;
+}
+
+
+
+/* CAUSES */
+.aside {
+    padding: 2%;
+    margin-right: 45%;
+
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#causes {
+    font-size: 66px;
+
+    margin-left: 18%;
+}
+
+
+/* FOOTER */
+.footer {
+}
+
+#myFoot {
+    font-size: 32px;
+
+    margin: 6%;
+}
+
+}
