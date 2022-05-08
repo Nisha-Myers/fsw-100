@@ -7,8 +7,6 @@ body {
 }
 
 ul {
-    border: 17px solid;
-    border-image: url(marble.jpg) 30;
     width: auto;
     text-align: center;
     text-decoration: none;
@@ -19,9 +17,8 @@ li {
 }
 a:hover {
     transition-duration: 1s;
-    opacity: 30%;
+    opacity: 20%;
 
-    color: rgba(255, 255, 255, 0);
     text-decoration:underline;
 }
 
