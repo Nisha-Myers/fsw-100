@@ -19,7 +19,7 @@
   background-position: center;
   box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
 
-  text-shadow: 15px 18px rgba(0, 0, 0, 0.397);
+  text-shadow: 15px 18px rgba(83, 83, 83, 0.397);
   font-family: 'Lavishly Yours', cursive;
   text-align: center;
 
@@ -36,7 +36,7 @@
 }
 
 #moving {
-  text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
+  text-shadow: 20px 20px rgba(66, 66, 66, 0.288);
   font-family: 'Lavishly Yours', cursive;
 
   color: rgb(148, 52, 37);
@@ -87,7 +87,7 @@ h3 {
 }
 
 #causes {
-  text-shadow: 20px 20px rgba(68, 45, 19, 0.178);
+  text-shadow: 20px 20px rgba(66, 66, 66, 0.288);
   font-family: 'Lavishly Yours', cursive;
 
   text-align: center;
