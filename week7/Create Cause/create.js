@@ -5,11 +5,11 @@ var submitIt = document.getElementById("submit");
 
 function newAlert() {
 
-    var fullName = form.elements["fullName"].value;
+    var movementName = form.elements["movementName"].value;
     var email = form.elements["email"].value;
-    var age = form.elements["age"].value;
+    var members = form.elements["members"].value;
 
-    alert ("Full Name: " + fullName + "\nEmail: " + email + "\nMembers: " + age);
+    alert ("Movement Name: " + movementName + "\nEmail: " + email + "\nMembers: " + members);
 
     form.reset();
 };
