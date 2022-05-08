@@ -48,7 +48,11 @@
 }
 
 #fighting {
+    text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
+    font-family: 'Lavishly Yours', cursive;
     color: rgb(148, 52, 37);
+
+    text-align: center;
 }
 
 ul {
@@ -83,6 +87,8 @@ img {
 #world {
     text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
     font-family: 'Lavishly Yours', cursive;
+
+    text-align: center;
 }
 
 #why {
@@ -184,6 +190,9 @@ h3 {
     margin-left: 4%;
 }
 
+#fighting {
+}
+
 ul {
 }
 li {
@@ -223,7 +232,7 @@ p {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 27px;
 }
 
 #click {
@@ -241,6 +250,7 @@ h3 {
     float: right;
 
     padding: 2%;
+    margin-bottom: 4%;
 
     width: fit-content;
 }
@@ -311,6 +321,10 @@ h3 {
     margin-left: 4%;
 }
 
+#fighting {
+    font-size: 48px;
+}
+
 ul {
 }
 li {
@@ -335,7 +349,7 @@ img {
 }
 
 #world {
-    font-size: 30px;
+    font-size: 38px;
 
     margin: 4%;
 }
@@ -442,6 +456,10 @@ h3 {
     margin-left: 4%;
 }
 
+#fighting {
+    font-size: 65px;
+}
+
 ul {
     display:inline-flex;  
     margin-left: 25%;
@@ -470,8 +488,7 @@ img {
 }
 
 #world {
-    text-align: center;
-    font-size: 38px;
+    font-size: 45px;
 
     margin: 4%;
 }
