@@ -7,6 +7,8 @@ body {
 }
 
 ul {
+    border: 17px solid;
+    border-image: url(marble.jpg) 30;
     width: auto;
     text-align: center;
     text-decoration: none;
@@ -29,6 +31,8 @@ img {
     border: 6px solid rgba(139, 69, 19, 0.562);
 }
 img:hover {
+    border-radius: 10%;
+
     box-shadow: 30px 25px 53px 18px rgba(0, 0, 0, 0.7);
 }
 
@@ -76,7 +80,7 @@ button {
 button:hover {
     transition: .4s;
 
-    font-size: 42px;
+    font-size: 52px;
     color:rgba(146, 72, 50, 0.87);
     background-color: rgba(160, 81, 45, 0);
 
