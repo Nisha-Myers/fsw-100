@@ -1,0 +1,82 @@
+/* Page as a Whole */
+* {}
+
+
+
+/* Body Area */
+body {
+    background-image: url(keyboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+    
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.767);
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(255, 255, 255);
+
+    font-weight: bold;
+}
+
+
+
+/* Header Section */
+header {
+    border: 17px solid;
+    border-image: url(purple.jpg) 30;
+    background-image: url(purple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+
+    text-shadow: 15px 8px rgba(255, 255, 255, 0.349);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+
+    color: rgb(255, 255, 255); 
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+
+
+/* Main Section */
+main {}
+
+p {}
+
+
+/* Detailed List */
+dl {}
+
+dt {
+    font-weight: bolder;
+    color: rgb(230, 209, 250);
+    font-size: 30px;
+}
+
+dd {
+    font-size: 20px;
+}
+
+
+
+/* the Footer */
+footer {
+    margin-top: 5%;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 28px;
+}
+
+p {
+    font-size: 20px;
+}
+
