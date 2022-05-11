@@ -28,7 +28,7 @@
 
 #matter {
   text-shadow: 15px 18px rgba(233, 226, 226, 0.329);
-  color: rgb(248, 159, 159);
+  color: rgb(245, 202, 202);
 }
 
 
@@ -129,6 +129,8 @@ text-align: center;
 #moving {
   padding: .8%;
   margin-left: 4%;
+
+  font-size: 24px;
 }
 
 ul {
@@ -208,6 +210,8 @@ h3 {
 #moving {
   padding: .8%;
   margin-left: 4%;
+
+  font-size: 45px;
 }
 
 ul {

@@ -50,7 +50,7 @@
 #fighting {
     text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
     font-family: 'Lavishly Yours', cursive;
-    color: rgb(148, 52, 37);
+    color: rgb(202, 136, 126);
 
     text-align: center;
 }
@@ -87,6 +87,7 @@ img {
 #world {
     text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
     font-family: 'Lavishly Yours', cursive;
+    color: rgba(122, 43, 31, 0.76);
 
     text-align: center;
 }
@@ -103,7 +104,7 @@ h3 {
 }
 
 #click {
-    color: rgb(148, 52, 37);
+    color: rgba(122, 43, 31, 0.76);
 }
 
 #or {
@@ -144,7 +145,7 @@ h3 {
     font-family: 'Lavishly Yours', cursive;
 
     text-align: center;
-    color: rgb(148, 52, 37);
+    color: rgb(202, 136, 126);
 }
 
 
@@ -489,6 +490,157 @@ img {
 
 #world {
     font-size: 45px;
+
+    margin: 4%;
+}
+
+#why {
+    font-size: 16px;
+}
+
+p {
+    font-size: 15px;
+
+    padding: 1%;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+#click {
+}
+
+#we {
+    font-size: 16px;
+}
+
+#or {
+    margin-left: 20%;
+}
+
+#create {
+    padding: 2%;
+}
+
+
+/* liberal DEFINITION */
+.def {
+    padding: 1%;
+    margin: 2%;
+    margin-top: 3%;
+
+    width: 480px;
+
+    grid-column: 1/5;
+    grid-row: 3/5;
+}
+
+.liberal {
+    font-size: xx-large;
+}
+
+.an {
+    font-size: larger;
+}
+
+
+
+/* CAUSES */
+.aside {
+    padding: 2%;
+    margin-right: 45%;
+
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#causes {
+    font-size: 66px;
+
+    margin-left: 18%;
+}
+
+
+/* FOOTER */
+.footer {
+}
+
+#myFoot {
+    font-size: 32px;
+
+    margin: 6%;
+}
+
+}
+
+
+
+
+/* ------------------------------------- largest ------------------------------------- */
+@media only screen and (min-width: 1906px) {
+/* HEADER */
+.header {
+    font-size: 90px;
+    
+    height:fit-content;
+    grid-column: 1/5;
+}
+
+#liberal {
+  font-size: 240px;
+}
+
+#matter {
+  font-size: 90px;
+}
+
+
+/* NAV-BAR */
+.nav {
+    grid-column: 1/5;
+}
+
+#moving {
+    font-size: 64px;
+
+    padding: .8%;
+    margin-left: 4%;
+}
+
+#fighting {
+    font-size: 75px;
+}
+
+ul {
+    display:inline-flex;  
+    margin-left: 25%;
+
+}
+li {
+    display:inline-flex;  
+}
+a:hover {
+}
+
+img {
+    border-radius: 50%;
+
+    width: 130px;
+    height: 100px;
+}
+
+
+/* MAIN SECTION */
+.main {
+    padding: 1%;
+
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+#world {
+    font-size: 61px;
 
     margin: 4%;
 }

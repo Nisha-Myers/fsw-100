@@ -39,7 +39,7 @@
   text-shadow: 20px 20px rgba(66, 66, 66, 0.288);
   font-family: 'Lavishly Yours', cursive;
 
-  color: rgb(148, 52, 37);
+  color: rgb(0, 0, 0);
 }
 
 ul {
@@ -133,6 +133,8 @@ h3 {
   #moving {
     padding: .8%;
     margin-left: 4%;
+
+    font-size: 24px;
   }
   
   ul {
@@ -218,6 +220,8 @@ h3 {
   #moving {
     padding: .8%;
     margin-left: 4%;
+
+    font-size: 45px;
   }
   
   ul {
