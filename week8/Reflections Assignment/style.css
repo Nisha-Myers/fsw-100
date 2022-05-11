@@ -1,5 +1,26 @@
-/* Page as a Whole */
-* {}
+/* Header Section */
+header {
+    border: 17px solid;
+    border-image: url(purple.jpg) 30;
+    background-image: url(purple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+
+    text-shadow: 15px 8px rgba(255, 255, 255, 0.349);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+
+    color: rgb(255, 255, 255); 
+    padding: 4%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
 
 
 
@@ -16,30 +37,8 @@ body {
     color: rgb(255, 255, 255);
 
     font-weight: bold;
-}
 
-
-
-/* Header Section */
-header {
-    border: 17px solid;
-    border-image: url(purple.jpg) 30;
-    background-image: url(purple.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
-
-    text-shadow: 15px 8px rgba(255, 255, 255, 0.349);
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-
-    color: rgb(255, 255, 255); 
-}
-
-h1 {
-    font-size: 80px;
-    font-weight: bolder;
+    padding: 4%;
 }
 
 
@@ -51,7 +50,9 @@ p {}
 
 
 /* Detailed List */
-dl {}
+dl {
+    padding: 2%;
+}
 
 dt {
     font-weight: bolder;
@@ -60,6 +61,7 @@ dt {
 }
 
 dd {
+    padding: 1%;
     font-size: 20px;
 }
 
@@ -67,16 +69,26 @@ dd {
 
 /* the Footer */
 footer {
-    margin-top: 5%;
+    text-align: center;
+    padding: 3%;
+    margin: 6%;
+
+    border: 10px solid;
+    border-image: url(keys.jpg) 30;
+    background-image: url(keys.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 33px 43px 70px rgba(0, 0, 0, 0.7);
 }
 
 h2 {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
-    font-size: 28px;
+    font-size: 38px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 26px;
 }
 
